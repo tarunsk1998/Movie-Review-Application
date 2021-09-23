@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #fbf3ff;
+}
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.outer-box{
+    position: absolute;
+    max-width: 800px;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    border-radius: 25px;
+}
+
+.right-box{
+    position: relative;
+    background-image: linear-gradient(45deg, #f046ff, #9b00e8);
+    border-radius: 25px;
+    height: 100%;
+    width: 300px;
+    padding: 25px;
+    color: rgb(192, 192, 192);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-box{
+    position: relative;
+    background: #fff;
+    border-radius: 25px;
+    height: 100%;
+    width: 500px;
+    padding: 40px;
+    padding-left: 45px;
+}
+
+.box{
+    position: relative;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+header{
+    color: #fff;
+    font-size: 44px;
+}
+
+.input-text{
+    width: 410px;
+    border-radius: 25p5;
+    padding: 7px;
+    padding-left: 50px;
+    border: none;
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    margin-bottom: 15px;
+}
+
+.save-btn{
+    background: linear-gradient(45deg, #f046ff, #9b00e8);
+    color: #fff;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    padding: 7px;
+    box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+}
+.cancel-btn{
+    background: linear-gradient(45deg, #f046ff, #9b00e8);
+    color: #fff;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+    padding-left: 75px;
+    padding-right: 80px;
+    text-decoration: none;
+}
+
+.save-btn:hover, .cancel-btn:hover{
+    background: linear-gradient(45deg, #f046ff, #9b00e8);
+    color: #fff;
+}
+.btn-right{
+    background: transparent;
+    color: #fff;
+    width: 120px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+p{
+    font-size: 18px;
+    color: #000;
+}
+#MovieReview{
+    height: 250px
+}
