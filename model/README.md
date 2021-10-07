@@ -7,3 +7,4 @@ Contents of the Notebook.
 - Model training, testing and saving
 - Finally the Hyperparameter session
 
+The Stacked LSTM model used in MovieReviewNLP.ipynb provided better accuracy compared to LSTM and Bi-directional LSTM networks. But the BERT model implemented in MovieReviewNLP_BERT.ipynb was the best model for the Sentimental Analysis.
